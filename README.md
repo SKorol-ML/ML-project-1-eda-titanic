@@ -81,25 +81,16 @@
 
 ml-project-1-eda-titanic/
 
-├── data/ # Данные (не загружаются в Git)
-
-│ └── train.csv # (игнорируется .gitignore, скачан с https://www.kaggle.com/datasets/hesh97/titanicdataset-traincsv)
-
-├── notebooks/
-
-│ └── 01_eda_analysis.ipynb # Главный ноутбук с EDA
-
-├── src/
-
-│ ├── init.py
-
-│ └── data_loader.py # Функция загрузки данных
-
-├── .gitignore # Исключает данные и временные файлы
-
-├── requirements.txt # Зависимости
-
-└── README.md # Этот файл
+├── data/ # Данные (не загружаются в Git)  
+│ └── train.csv # (игнорируется .gitignore, скачан с https://www.kaggle.com/datasets/hesh97/titanicdataset-traincsv)  
+├── notebooks/  
+│ └── 01_eda_analysis.ipynb # Главный ноутбук с EDA  
+├── src/  
+│ ├── init.py  
+│ └── data_loader.py # Функция загрузки данных  
+├── .gitignore # Исключает данные и временные файлы  
+├── requirements.txt # Зависимости  
+└── README.md # Этот файл  
 
 ---
 
